@@ -14,7 +14,7 @@ Build/run using gradle
 Run any of the examples
 
 ```bash
-# Query the Ads service without any retry logic
+# Query the Ads service without any retry logic.
 scripts/normal.sh
 
 # Query the Ads service with retry logic.

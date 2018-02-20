@@ -10,3 +10,16 @@ Build/run using gradle
 ```bash
 ./graldew :bootRun
 ```
+
+Run any of the examples
+
+```bash
+# Query the Ads service without any retry logic
+scripts/normal.sh
+
+# Query the Ads service with retry logic.
+scripts/retry.sh
+
+# Query the Ads service with circuit breaker logic.
+scripts/circuit-breaker.sh
+```

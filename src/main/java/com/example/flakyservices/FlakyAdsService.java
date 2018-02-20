@@ -1,12 +1,9 @@
 package com.example.flakyservices;
 
-import org.springframework.stereotype.Component;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-@Component
 class FlakyAdsService {
 
     private final List<Ad> ads = Arrays.asList(
